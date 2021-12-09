@@ -1,6 +1,4 @@
-FROM node:14.17-alpine3.14
-
-RUN apk add --upgrade --no-cache vips-dev build-base --repository https://alpine.global.ssl.fastly.net/alpine/v3.10/community/
+FROM node:14.17
 
 WORKDIR /app
 
