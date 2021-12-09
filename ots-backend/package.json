@@ -8,6 +8,7 @@
     "dev": "nodemon src/app.js",
     "test": "node src/test.js"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@gitlab.com/thanhnhut02jan/wtn.git"
