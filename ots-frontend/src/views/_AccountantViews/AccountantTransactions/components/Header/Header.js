@@ -19,10 +19,10 @@ const Header = props => {
       <Grid alignItems="flex-end" container justify="space-between" spacing={3}>
         <Grid item>
           <Typography component="h2" gutterBottom variant="overline">
-            Management
+            Quản lý
           </Typography>
           <Typography component="h1" variant="h3">
-            Transactions
+            Thu chi
           </Typography>
         </Grid>
         <Grid item>

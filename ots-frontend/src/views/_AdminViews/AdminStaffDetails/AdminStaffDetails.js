@@ -33,8 +33,7 @@ const AdminStaffDetails = props => {
 
   const tabs = [
     { value: 'overview', label: 'Thông tin' },
-    { value: 'invoices', label: 'Invoices' },
-    { value: 'logs', label: 'Logs' }
+    
   ];
 
   if (!tab) {

@@ -28,6 +28,14 @@ start:
 	-f docker-compose.yml \
 	up -d
 
+start-build:
+	export $(shell grep -v '^#' env/backend.env | xargs) && \
+	export $(shell grep -v '^#' env/postgres.env | xargs) && \
+	export $(shell grep -v '^#' env/frontend.env | xargs) && \
+	docker-compose \
+	-f docker-compose.yml \
+	up -d --build
+
 get-db-ip:
 	docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' ots-database
 

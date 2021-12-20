@@ -36,7 +36,7 @@ const AdminVoucherDetails = props => {
   if (!voucher) return null;
 
   return (
-    <Page className={classes.root} title="Customer Management Details">
+    <Page className={classes.root} title="Chi viết voucher">
       <Header voucher={voucher} />
 
       <Divider className={classes.divider} />

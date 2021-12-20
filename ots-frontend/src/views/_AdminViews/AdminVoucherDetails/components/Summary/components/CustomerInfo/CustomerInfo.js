@@ -17,6 +17,7 @@ import {
 import EditIcon from '@material-ui/icons/Edit';
 
 import { CustomerEdit } from './components';
+import formatter from 'utils/formatter';
 
 const useStyles = makeStyles(theme => ({
   root: {},
@@ -67,7 +68,7 @@ const CustomerInfo = props => {
             </TableRow>
             <TableRow selected>
               <TableCell>Tổng giảm</TableCell>
-              <TableCell>{voucher.discount_rate}đ</TableCell>
+              <TableCell>{formatter.format(voucher.discount_rate)}</TableCell>
             </TableRow>
 
             <TableRow>
@@ -82,7 +83,7 @@ const CustomerInfo = props => {
       <CardActions className={classes.actions}>
         <Button onClick={handleEditOpen}>
           <EditIcon className={classes.buttonIcon} />
-          Edit
+          Chỉnh sửa
         </Button>
       </CardActions>
       <CustomerEdit

@@ -97,7 +97,7 @@ const Results = props => {
                         </TableCell>
                         <TableCell>
                           <Typography variant="body1">
-                            {transaction.message}
+                            {String(transaction.message)}
                           </Typography>
                         </TableCell>
                         <TableCell>{transaction.amount}</TableCell>
@@ -123,7 +123,7 @@ const Results = props => {
                             size="small"
                             to="/accountant/transactions/1/summary"
                             variant="outlined">
-                            View
+                            Chi tiết
                           </Button>
                         </TableCell>
                       </TableRow>

@@ -72,7 +72,7 @@ const CustomerEdit = props => {
         <form>
           <CardContent>
             <Typography align="center" gutterBottom variant="h3">
-              Edit Transaction
+             Chỉnh sửa voucher
             </Typography>
             <Grid className={classes.container} container spacing={3}>
               <Grid item xs={12}>
@@ -120,13 +120,13 @@ const CustomerEdit = props => {
           </CardContent>
           <CardActions className={classes.actions}>
             <Button onClick={onClose} variant="contained">
-              Close
+              Hủy
             </Button>
             <Button
               className={classes.saveButton}
               onClick={onClose}
               variant="contained">
-              Save
+              Lưu
             </Button>
           </CardActions>
         </form>

@@ -32,9 +32,9 @@ const AccountantTransactionDetails = props => {
   };
 
   const tabs = [
-    { value: 'summary', label: 'Summary' },
-    { value: 'invoices', label: 'Invoices' },
-    { value: 'logs', label: 'Logs' }
+    { value: 'summary', label: 'Chi tiết' },
+    // { value: 'invoices', label: 'Invoices' },
+    // { value: 'logs', label: 'Logs' }
   ];
 
   if (!tab) {

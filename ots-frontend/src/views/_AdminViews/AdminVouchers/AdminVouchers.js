@@ -27,7 +27,7 @@ const AdminVouchers = () => {
   // const handleSearch = () => {};
 
   return (
-    <Page className={classes.root} title="Customer Management List">
+    <Page className={classes.root} title="Quản lý voucher">
       <Header />
       {vouchers && <Results className={classes.results} vouchers={vouchers} />}
     </Page>

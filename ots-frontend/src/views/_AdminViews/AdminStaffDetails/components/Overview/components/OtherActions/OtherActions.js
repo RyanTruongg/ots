@@ -96,7 +96,7 @@ const OtherActions = props => {
             disabled={loading}
             onClick={disableStaff}>
             <NotInterestedIcon className={classes.buttonIcon} />
-            Vô hiệu quá
+            Vô hiệu hóa
           </Button>
         )}
       </CardContent>

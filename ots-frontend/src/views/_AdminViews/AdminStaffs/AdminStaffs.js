@@ -23,7 +23,7 @@ const AdminStaffs = () => {
   }, []);
 
   return (
-    <Page className={classes.root} title="Customer Management List">
+    <Page className={classes.root} title="Tài khoản nhân viên">
       <Header />
       {/* <SearchBar onFilter={handleFilter} onSearch={handleSearch} /> */}
       {staffs && <Results className={classes.results} staffs={staffs} />}
